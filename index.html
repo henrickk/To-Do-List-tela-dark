@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+      <label class="cria-tarefas" for="cria-tarefas">Cria Tarefas</label>
+      <input type="text" name="cria-tarefas" id="cria-tarefas" />
+      <button id="btn-adicionar-tarefa" value="click">Adicionar Tarefa</button>
+    </header>
+
+    <div class="container">
+      
+        <div class="cards" id="card-1">
+          <ul class="lista-tarefas">
+            <section id="tarefas">
+            <div class="card">
+              <input type="text" name="texto-tarefa"  class="input-tarefas" />
+              <button class="btnApagar"><img src="https://img.icons8.com/emoji/48/null/wastebasket-emoji.png"/></button>
+            </div>
+            </section>
+          </ul>
+        </div>
+      
+      <div id="card-2" class="cards">
+        <ul class="texto-tarefas"></ul>
+      </div>
+
+      <div id="card-3" class="cards">
+        <ul class="texto-tarefas"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
