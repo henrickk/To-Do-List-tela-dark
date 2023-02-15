@@ -17,6 +17,7 @@ function criaCard(tarefa) {
 
   let input = document.createElement('input')
   input.classList.add('input-tarefas')
+  input.readOnly = true
   input.type = 'text'
   input.value = tarefa.text // Pesquisar "apenas leitura no input"
 
@@ -35,7 +36,6 @@ function criaCard(tarefa) {
 
   card.appendChild(input)
   card.appendChild(btnApagar)
-  
   btnApagar.appendChild(img)
 
   return card
