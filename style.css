@@ -26,22 +26,22 @@ header {
 
 
 #card-1 {
-  width: 20%;
-  height: 650px;
+  width: 40vh;
+  height: 65vh;
   border: solid black;
   background-color: black;
 }
 
 #card-2 {
-  width: 20%;
-  height: 650px;
+  width: 40vh;
+  height: 65vh;
   border: solid black;
   background-color: black;
 }
 
 #card-3 {
-  width: 20%;
-  height: 650px;
+  width: 40vh;
+  height: 65vh;
   border: solid black;
   background-color: black;
 }
@@ -50,7 +50,7 @@ header {
   border: 0;
   border-bottom: 2px solid #686868;
   margin-bottom: 5px;
-  width: 95%;
+  width: 100%;
   align-items: center;
   background: transparent;
   color: white;
@@ -71,15 +71,14 @@ header {
 
 .card {
   display: flex;
-  margin: 20px;
+
 }
 
-.btnApagar {
-  position: absolute;
-  margin-left: 15%;
-  background: transparent;
-  border: 0;
-  color: white;
+#btnIcon {
+  background: none;
+  border: none;
+
+
 }
 
 @keyframes remove {
