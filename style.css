@@ -71,14 +71,28 @@ header {
 
 .card {
   display: flex;
-
 }
 
-#btnIcon {
+img {
+  width: 34px;
+  height: 34px;
+}
+
+.btnFunc{
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  margin-left: 270px;
+}
+
+.btnApagar {
   background: none;
   border: none;
+}
 
-
+.btnEditar{
+  background: none;
+  border: none;
 }
 
 @keyframes remove {

@@ -23,7 +23,6 @@ function criaCard(tarefa) {
 
   let img = document.createElement('img')
   img.src = 'https://img.icons8.com/emoji/48/null/wastebasket-emoji.png'
-  console.log('recebe', img)
 
   let btnApagar = document.createElement('button')
   btnApagar.classList.add('btnApagar')
@@ -34,9 +33,23 @@ function criaCard(tarefa) {
     setTimeout(() => card.remove(), 500)
   })
 
+  let img2 = document.createElement('img')
+  img2.src =
+    'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-edit-web-flaticons-lineal-color-flat-icons-7.png'
+
+  let btnEditar = document.createElement('button')
+  btnEditar.classList.add('btnEditar')
+  btnEditar.textContent = ''
+
+  btnEditar.addEventListener('click', () => {
+    btnEditar.readOnly = false
+  })
+
   card.appendChild(input)
+  card.appendChild(btnEditar)
   card.appendChild(btnApagar)
   btnApagar.appendChild(img)
+  btnEditar.appendChild(img2)
 
   return card
 }
