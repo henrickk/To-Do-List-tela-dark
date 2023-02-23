@@ -42,12 +42,21 @@ function criaCard(tarefa) {
   btnEditar.textContent = ''
 
   btnEditar.addEventListener('click', () => {
-    btnEditar.readOnly = false
+    if (input.readOnly) {
+      input.readOnly = false
+      return
+    }
+    input.readOnly = true
   })
 
+  let div = document.createElement('div')
+  div.classList.add('btnFunc')
+  div.textContent = ''
+
   card.appendChild(input)
-  card.appendChild(btnEditar)
-  card.appendChild(btnApagar)
+  card.appendChild(div)
+  div.appendChild(btnEditar)
+  div.appendChild(btnApagar)
   btnApagar.appendChild(img)
   btnEditar.appendChild(img2)
 

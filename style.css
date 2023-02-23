@@ -27,21 +27,21 @@ header {
 
 #card-1 {
   width: 40vh;
-  height: 65vh;
+  height: 68vh;
   border: solid black;
   background-color: black;
 }
 
 #card-2 {
   width: 40vh;
-  height: 65vh;
+  height: 68vh;
   border: solid black;
   background-color: black;
 }
 
 #card-3 {
   width: 40vh;
-  height: 65vh;
+  height: 68vh;
   border: solid black;
   background-color: black;
 }
@@ -54,8 +54,9 @@ header {
   align-items: center;
   background: transparent;
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-size: 150%;
+  margin: 10px;
 }
 
 .lista-tarefas {
