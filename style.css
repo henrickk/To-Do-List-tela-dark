@@ -60,10 +60,6 @@ header {
   outline: none !important;
 }
 
-.input-tarefas:read-only {
-  border-bottom: 2px solid green;
-}
-
 .lista-tarefas {
   padding: 0;
   border: 0;

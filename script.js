@@ -42,7 +42,13 @@ function criaCard(tarefa) {
   btnEditar.textContent = ''
 
   btnEditar.addEventListener('click', () => {
-    input.readOnly = input.readOnly ? false : true
+    if (input.readOnly) {
+      input.readOnly = false
+      input.style.borderBottom = '2px solid green'
+      return
+    }
+    input.readOnly = true
+    input.style.borderBottom = '2px solid #686868'
   })
 
   let div = document.createElement('div')
