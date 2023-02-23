@@ -48,7 +48,7 @@ header {
 
 .input-tarefas {
   border: 0;
-  border-bottom: 2px solid #686868;
+  border-bottom: 2px solid green;
   margin-bottom: 5px;
   width: 100%;
   align-items: center;
@@ -60,8 +60,8 @@ header {
   outline: none !important;
 }
 
-.input-tarefas:enabled {
-  border-bottom: 2px solid green;
+.input-tarefas:read-only {
+  border-bottom: 2px solid #686868;
 }
 
 .lista-tarefas {
