@@ -60,7 +60,7 @@ header {
   outline: none !important;
 }
 
-.input-tarefas:focus {
+.input-tarefas:enabled {
   border-bottom: 2px solid green;
 }
 
