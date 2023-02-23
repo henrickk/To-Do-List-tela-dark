@@ -57,6 +57,7 @@ header {
   padding-bottom: 5px;
   font-size: 150%;
   margin: 10px;
+  outline: none !important;
 }
 
 .lista-tarefas {
@@ -79,11 +80,11 @@ img {
   height: 34px;
 }
 
-.btnFunc{
+.btnFunc {
   display: flex;
   position: absolute;
   justify-content: flex-end;
-  margin-left: 270px;
+  margin-left: 14%;
 }
 
 .btnApagar {
@@ -91,7 +92,7 @@ img {
   border: none;
 }
 
-.btnEditar{
+.btnEditar {
   background: none;
   border: none;
 }
